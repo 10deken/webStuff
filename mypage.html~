@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+				<head>
+									<link rel="stylesheet" type="text/css" href="styles.css">
+								<title>My page</title>
+				</head>
+				<body>
+				<h1 style="font-family:Arial"> Introduction: </h1>
+				<p> Hi there my name is <a href= "http://www.facebook.com/10deken" target="_blank">Tenzin Dechen</a>	 
+				<br> Here is a link to my personal blog <a href="http://dekenlak.blogspot.com" target="_blank">Deken's Blog</a>	</p>
+				
+				<h3 style="font-style:Cursive; color:Haze"> Just a little about myself.</h3>				
+				<ol id="black_list">
+							<li style="font-family:Garamond">
+							<i>Age</i> : <b>23</b></li>
+							<li> <i>Birth City </i>: Mainpat, India </li>	
+							<li> <i>Ethnicity </i>: Tibetan</li>	
+							<li> <i>Nationality</i> : American</li>
+				</ol>				
+				
+				<h2 style="font-style:Cursive; color:Navy">Here are some of my interests</h2>
+				<ul>
+							<li>Technology and computers</li>				
+							<li>Reading books (fiction and nonfiction) </li>
+							<li>Learning about China </li>
+							
+							 					<ul id="red_list">	 
+							 					<li>Chinese Mandarin language</li>
+									   <li>Current Chinese Political system</li>
+									   <li>Chinese Tibetan historical relationships</li>							 					
+							 					 </ul>
+				 </ul>
+				 <table border="1px">
+					<thead><th colspan="8" style="background-color:grey;font-family:arial;text-align:center;font-size:18px"> Weekly Schedule </th>	</thead>
+					<thead> 
+				
+					<th>Day of the week</td> 
+						<td>Monday</td>
+						<td>Tuesday</td>
+						<td>Wednesday</td>							
+						<td>Thursday</td>
+						<td>Friday</td>	
+						<td>Saturday</td>
+						<td>Sunday</td>
+										
+					</thead>
+					<thead> <th>Activity</td> 
+					
+						<td>Work</td>
+						<td>Work</td>			
+						<td>Work</td>
+						<td>more Work</td>
+						<td>off day</td>
+					
+					</thead>
+					</tbody>							 
+				 </table>
+				</body>
+
+
+</html>
