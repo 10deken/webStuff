@@ -1,0 +1,21 @@
+a {
+		color:lightseagreen;	
+		text-decoration:none;
+	}
+p {
+			font-family: Futura;
+			font-size: 15px;
+			color: Ebony;	
+}
+li {
+			color: orangered;	
+	}
+
+#red_list li {
+			font-family: Arial;
+			color: red;
+	}
+#black_list li{
+			font-family: Arial;
+			color: black;	
+	}
