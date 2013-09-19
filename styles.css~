@@ -13,9 +13,18 @@ li {
 
 #red_list li {
 			font-family: Arial;
-			color: red;
+			color: maroon;
 	}
 #black_list li{
 			font-family: Arial;
 			color: black;	
 	}
+thead {
+			font-family: Courier;
+			font-style: italic;
+
+}
+td {
+		 font-family: cursive;
+		 font-variant: small-caps;
+}
