@@ -2,16 +2,20 @@
 <html>
 				<head>
 									<link rel="stylesheet" type="text/css" href="styles.css">
-								<title>My page</title>
+								<title> About Me</title>
 				</head>
 				
 				<body>
+				<!-- Links to my facebook page and my blog page -->
 				<h1 style="font-family:Arial"> Introduction: </h1>
-				<p> Hi there my name is <a href= "http://www.facebook.com/10deken" target="_blank"> Tenzin Dechen</a>	 
+				<p> Hi there my name is <a href= "http://www.facebook.com/10deken" target="_blank"> 
+				<span style="border: 2px solid darkblue;border-radius:5px;background-color:lightblue">
+				Tenzin Dechen</span></a>	 
 				<br> Here is a link to my personal blog <a href="http://dekenlak.blogspot.com" target="_blank"> Deken's Blog</a>	
 				<br>What's your name ?				
 				</p>
 				
+				<!-- practicing making a list, font transformation through italicizing and bolding -->
 				<h3 style="font-style:Cursive; color:Haze;"> Just a little about myself.</h3>				
 				<ol id="black_list">
 							<li style="font-family:Garamond; font-size:18px"> <b>Age</b>: <b>23</b></li>
@@ -19,6 +23,9 @@
 							<li> <i>Ethnicity </i>: Tibetan</li>	
 							<li> <i>Nationality</i> : American</li>
 				</ol>				
+				
+				<!-- playing further with the list here, unordered list to be more specific -->
+				<!-- also testing and the span feature with CSS -->
 				
 				<h3 style="font-style:Cursive; color:Navy">Here are some of my interests</h3>
 				<ul>
@@ -29,13 +36,15 @@
 							 		<ul id="red_list">	 
 							 			 <li>Chinese Mandarin language</li>
 									   <li>Current Chinese Political system</li>
-									   <li>Chinese <span style="color:blue;font-style:bold">Tibetan</span> historical relationships</li>							 					
+									   <li>Chinese <span style="color:blue;font-weight:bold">Tibetan</span> historical relationships</li>							 					
 							 		</ul>
 				 </ul>
+				 <!-- random snippets of code, trying to see what <div> can do -->
 				 <div style="width:50px; height:50px; background-color:orange"> </div>
 				 <div style="width:100px; height: 50px; background-color:red"></div>
 				 <div style="width:150px; height:50px; background-color:yellow"></div>
 				 
+				 <!-- here trying to work with <table> and its helpers <thead> -->
 				 <table border="1px">
 				 <thead><th colspan="8" style="background-color:grey;font-family:arial;text-align:center;font-size:18px"> 
 					Weekly Schedule </th>	</thead>
