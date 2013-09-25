@@ -2,7 +2,17 @@ a {
 		color:lightseagreen;	
 		text-decoration:none;
 	}
+h1 {
+		margin-left:2px;
+		margin-bottom: -10px;
+}
+h3 {
+		margin: -10px;
+	  margin-left: 2px;
+}
 p {
+			margin-left: 10px;
+			text-align: justify;
 			font-family: Futura;
 			font-size: 15px;
 			color: Ebony;	
@@ -10,12 +20,26 @@ p {
 li {
 			color: orangered;	
 	}
-
 #red_list li {
 			font-family: Arial;
-			color: red;
+			color: maroon;
 	}
 #black_list li{
 			font-family: Arial;
 			color: black;	
 	}
+thead {
+			font-family: Courier;
+			font-style: italic;
+
+}
+th {
+		 font-family: cursive;
+		 font-variant: small-caps;
+}
+
+div {
+		border-radius: 5px;
+		border: 4px solid black;
+
+}
