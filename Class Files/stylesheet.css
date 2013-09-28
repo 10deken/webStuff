@@ -1,0 +1,151 @@
+body {
+  color: #444;
+  background-image: url(img/background.gif);
+  font-family: Garamond, Serif;
+}
+
+#content {
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+#wrapper {
+  margin: 0px auto;
+  width: 900px;
+  background-color: AliceBlue;
+  box-shadow: 5px 5px 20px #000;
+  -webkit-box-shadow: 5px 5px 20px #000;
+  position:relative;
+}
+#sidestuff {
+	background-color: rgba(0,0,0,.1);
+	padding-bottom: 10px;
+}
+
+h2, h3, h4, h5, h6 {
+  color: AliceBlue;
+  background-color: #26314C;
+  text-decoration: none;
+  font-family: Garamond, serif;
+  padding-left: 1em;
+}
+
+h1 {
+  color: AliceBlue;
+  /*background-color: #314C26;*/
+  /*font-family: Garamond, serif;*/
+  font-family: 'Parisienne', cursive;
+  font-size: 2.5em;
+  text-align: right;
+  padding-right: 0.5em;
+  z-index:200;
+  position:absolute;
+  right:0px;
+  top:10px;
+  margin-top:30px;
+  
+}
+
+p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+footer {
+	text-align: center;
+    position:fixed;
+    background-color:darkgray;
+    color:black;
+    width:900px;
+    padding: 5px 0px;
+    margin: 0px auto;
+    bottom: 0px
+}
+
+.album img {
+  border: 5px solid grey;
+  float:left;
+  
+}
+.album ol {
+    float: left;
+    position: relative;
+    top: 20px;
+    
+}
+
+nav a {
+  color:  white;
+  display:block;
+  padding:0.25em;
+  text-decoration: none;
+  font-family: "Courier New", Monospace;
+  
+}
+
+nav a:hover {
+  color: #26314C;
+  background-color: rgba(255,255,255,.51);
+  
+}
+
+nav li {
+  /*display: inline;*/
+  list-style-type: none;
+}
+nav {
+    position:absolute;
+    top:75px;
+    left:0px;
+    background-color:rgba(0,0,0, 0.5);
+    z-index:200;
+    margin-bottom:20px;
+    width:200px;
+
+}
+nav ul{
+    padding-left:30px;
+}
+a {
+  color:  #4C2631;
+}
+  
+a:hover {
+	color: #26314C;
+}
+
+.maincol {
+    width: 600px;
+    float: left;
+    /*padding:10px;*/
+    padding-left:10px;
+    /*border: 2px solid black; */
+    margin-right:0px
+    margin-left: 10px;
+}
+
+.sidebar {
+    width: 270px;
+    float: left;
+}
+
+hr {
+    clear: both;
+    visibility:none;
+}
+
+.album h3 {
+    clear:left;
+    position:absolute;
+    left:275px;
+    top:0px;
+    right:0px;
+    margin-top:1px;    
+    
+}
+.album {
+    position: relative;
+    clear:both;
+
+}
+

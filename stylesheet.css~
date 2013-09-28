@@ -9,6 +9,10 @@ body > h4 {
 		color: white;
 		text-align: center;
 		margin-top: 100px;
+}
+body>h4:hover{
+		color:darkblue;
+		font-weight: bolder;
 }	
 p  {
 		font-size: 25px;

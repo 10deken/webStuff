@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="html5.css" />
+  <!--[if lt IE 9]><script src="html5.js"></script><![endif]-->
+  <title>Fuzzy and the Blue Tones</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+
+<body>
+<div id="wrapper">
+  <header><h1>Fuzzy and the Blue Tones</h1></header>
+
+
+<nav> 
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Tour</a></li>
+      <li class="last"><a href="albums.html">Albums</a></li>
+    </ul>
+</nav>
+    <img src="img/bandpic.jpg" />
+      
+<div id="content">
+
+<div class = "maincol">
+<h2>Band History</h2>
+<h3>Forming  The Band</h3>
+<p>Fuzzy and the Blue Tones was founded in 2003 by banjo aficionado Bob "Fuzzy" Mangostein.  In 1995 Fuzzy was all set to realize his childhood dream of becoming a fighter pilot for the U.S. Air Force, when tragedy struck.  Fuzzy was volunteering as a chef at the local veterans home cooking hot chili pepper stew when suddenly a wasp flew in through an open window.  Fuzzy was so startled by the wasp that he knocked the pan of boiling chili pepper stew off of the burner, splashing himself in the eyes.  He was quickly rushed to the hospital where they miraculously managed to save his right eye, but tragically, the left eye was lost.  Devastated, Fuzzy withdrew from society.
+Years later, his longtime friend, Sally "Bluejay" Avocadoton, introduced him to bluegrass music.  He loved it so much that he hand-crafted his own unique banjo and proceeded to play it every day.  After a few years, he decided he wanted to start his own bluegrass band.  After careful planning, he asked Bluejay and his new friend Ricky "Chimes" Kiwison to join him in forming the group known as Fuzzy and the Blue Tones.  
+</p>
+
+<h3>Unbelievable Success.</h3>
+<p>In 2004, the band released its first single ever, 'Illegally Fuzzy'.  Only three weeks after its release, the song was already topping bluegrass charts around the world.  Inspired by fans' enthusiasm for their band's music, Fuzzy, Bluejay, and Chimes hurried to wrap up their first album, titled "BLUE".  Its release was a major success and it went platinum in only a month.  With the release of two other extremely successful albums, "Fiddlin' Since the Endtimes" in 2007 and "Smurfgrass" in 2009, the band has earned its legendary status as the best bluegrass group ever.
+</p>
+</div>
+
+<div class="sidebar">
+<h2>Top Songs</h2>
+	<ol>
+		<li>Illegally Fuzzy</li>
+		<li>Papa Smurfgrass</li>
+		<li>Jet Fueled Finish</li>
+		<li>Monkey In the Banana Stand</li>
+		<li>The Gettin' Jiggy Jig</li>
+	</ol>
+
+<h2>Sponsors</h2>
+	<ul>
+		<li><a href="http://www.spbgma.com/" target="_blank">SPBGMA</a></li>
+		<li><a href="http://www.chimes.com/" target="_blank">Woodstock Chimes</a></li>
+	</ul>  
+
+</div>    
+</div>
+<hr/>
+
+<footer>
+	Copyright &copy;2011 Fuzzy and the Blue Tones. All Rights Reserved.
+</footer>
+</div>
+</body>
+
+</html>
+
