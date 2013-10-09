@@ -12,4 +12,11 @@
 <br> བསྟན་འཛིན་ བདེ་ཆེན་</h4>
 <p>Welcome to My Humble Abode
 <br> <span> བཀྲིས་བདེ་ལེགས།</span></p>
+<nav>
+	<ul>
+		<li> Home </li>	
+		<li> About Me </li>
+	 	<li> Opinions </li>	
+	</ul>
+</nav>
 </html>

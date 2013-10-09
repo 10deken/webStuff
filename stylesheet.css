@@ -19,9 +19,33 @@ p  {
 		font-style: italic;
 		color: whitesmoke;
 		text-align: center;
+}
+nav ul {
+			text-align: center;
+/**		padding-left: 40%;
+**/
+}
+nav ul li {	
 	
-		
+		border: darkgray 2px solid;
+		border-radius: 10%;				
+		margin:15px;
+		font-size: 20px;
+		font-variant: small-caps;		
+		display:inline-block;
+		list-style-type: square;
+}
+	
+nav {
+		color: white;
 }
 span {
 	  font-size: 30px;
+}
+footer{
+		clear:both;
+		color:beige;
+		text-align: center;
+		font-style: italic;
+		margin: auto;
 }
