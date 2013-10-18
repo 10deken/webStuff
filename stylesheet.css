@@ -8,25 +8,58 @@ body > h4 {
 		font-weight: bold;
 		color: white;
 		text-align: center;
-		margin-top: 100px;
+		margin-top: 50px;
+	
 }
 body>h4:hover{
 		color:navajowhite;;
 		font-weight: bolder;
 }	
+/*** The Middle of the page, "welcome" content**/
+#welcome {
+		position: relative;
+
+}
+#programming {
+		
+		position: relative;
+		margin-left: 10%;		
+		float: left;
+}
+#daily {
+		position: relative;
+		float: left;
+		margin-left: 5%;
+}
+#social {
+		position: relative;
+		float: left;
+		margin-left: 5%;
+}
 p  {
+
 		font-size: 25px;
 		font-style: italic;
 		color: whitesmoke;
 		text-align: center;
 }
+li {
+
+	 color:white;
+
+}
 nav ul {
-			text-align: center;
+		position: relative;
+		clear: both;
+		text-align: center;
+
 /**		padding-left: 40%;
 **/
 }
+
+/**** The links in the near bottom **/
 nav ul li {	
-	
+
 		border: darkgray 2px solid;
 		border-radius: 10%;				
 		margin:15px;
@@ -43,7 +76,8 @@ span {
 	  font-size: 30px;
 }
 footer{
-		clear:both;
+		clear: both;
+		position: center;
 		color:beige;
 		text-align: center;
 		font-style: italic;
