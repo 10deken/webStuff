@@ -1,0 +1,40 @@
+body {
+	background:black;
+}
+#container {
+	margin: 0px auto;
+	width:900px;
+	height:900px;
+	background:grey;
+}
+h3 {
+	text-align: center;
+	font-family: helvetica;
+}
+.column {
+	background:darkgrey;
+	margin: 0px 20px;
+	padding: 0 32px;
+	border: 2px black solid;
+	float:left;
+}
+.column>ul {
+	
+	margin-left:-30px;
+}
+ul>li {
+	list-style:none;
+	border: 2px black solid;
+	text-align:center;
+	padding: 5px 5px;
+	margin: 15px 0px;
+
+}
+.content {
+	clear:both;
+	padding: 10px 30px;
+}
+
+.content>p {
+	border:5x black solid;
+}
