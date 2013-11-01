@@ -20,7 +20,7 @@ body {
 */	
 	margin:0;
 	padding:0;
-	margin-top: 4em;
+	margin-top: 2em;
 }
 body h4 {
 
@@ -45,14 +45,15 @@ body h4:hover{
 	/*		border: 1px solid blue; */
 	}
 .my_page {
+/*	border: 2px dashed red; */
 }
 
 /******Main Content, Wrapper ****/
 .my_page #wrapper {
-	width: 1024px;
-	height:720px;
-/*	margin: 0 10em; */
+	width: 1054px;
+	height: 530px;
 	margin: auto;
+	
 	
 	border:3px solid black;
 	background-color:#999999;
@@ -68,28 +69,27 @@ body h4:hover{
 /***Box that contains all the different sections of topics**/
 .my_page #linkzone {
 		margin-top: 1em;
+		margin-left: 1em;
 }
 /** the topic box of each section **/
 	.topicLink {
-	/*		border: 1px navy solid; /***/
-
+			border: 2px white solid; /***/
 			width: 21.0em;
 			float:left;
-		
-			padding: .8em 0 0 0;
-			margin: .5em 0 0 0;
-			margin-left:.5%;
+			padding: .4em 0 .6em 0;
+			margin: auto;
+			margin:.05%;
 	}
 	
 /**animate the Topic Titles when hovered **/
 	.topicLink p:hover {
-		background-color:#CCCCCC;
+		background-color:beige;
 		color:black;
 	}
 /***Styles of each topic title **/
 	.topicLink p {
 			width: 8.5em;
-			border: 1px black solid;
+			border: 3px navy ridge;
 			font-family:impact, arial;
 			font-weight: normal;
 			
@@ -98,7 +98,7 @@ body h4:hover{
 			border-radius: 0%;	
 		
 			color: navy;
-			background-color:#99CCCC;
+			background-color:#99CCCC; /* light bluish color */
 	}
 p  {
 		text-align:center;
@@ -114,23 +114,18 @@ p  {
 }
 /*** Links within each Topic ***/
 	ul li {
-		border:1.5px black solid; /**/
-		background-color: #F3E5AB;
-		color: #000033;
+		border:2px maroon inset; /**/
+		background-color: #F3E5AB; /*Creamish color*/
+		color: #000033; /*dark grey text color*/
 		list-style:none;
 	 
 		padding: .4em 0;
 		margin: .3em 5em;
-	 
-		border-radius: 10%;
-		-moz-border-radius: 10%;
-		-webkit-border-radius: 10%;
-		border: 1px solid #800000;	
 	}
 /** Animate each little links located below the Topic **/
 	ul li:hover{
-		background-color: #3366FF;
-		color: black;
+		background-color: #3366FF; /**Dark Blue**/
+		color: whitesmoke;
 		font-weight: bold;
 	}
 	nav ul {
@@ -155,7 +150,7 @@ nav ul li {
 		display:inline-block;
 		
 		color:#0066FF;
-		background-color: #CCCFFF;
+		background-color: #CCCFFF; 
 }
 
 /** All Rights Reserved. **/	
@@ -164,7 +159,7 @@ footer{
 		padding: 1em 0;
 		clear: both;
 		
-		color: #000003;
+		color: #CCCCCC; /**light gray */
 		text-align: center;
 		font-style: italic;
 }
