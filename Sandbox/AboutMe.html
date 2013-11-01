@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<style>
+
+.my_page {
+	position:relative;
+	width: 1054px;
+	height: 530px;
+	margin: auto;
+	background-color: #CCCCCC;
+	border: 4px dashed red;
+		
+}
+.my_page #main_content{
+	width: 800px;
+	float:left;
+	border: 3px solid blue;
+	padding: 1em 3em;
+}
+
+.my_page #timeline_col{
+	position:absolute;
+	height: 200px;
+	top: 10%;
+	right: -10%;
+	border: 2px solid yellow;
+}
+
+</style>
+
+</head>
+<body class="my_page">
+<div id="main_content">
+<p>
+The :active CSS pseudo-class matches when an element is being activated by the user. 
+It allows the page to give a feedback that the activation has been detected by the browser. 
+When interacting with a mouse, this is typically the time between the user presses the mouse button and releases it. 
+The :active pseudo-class is also typically matched when using the keyboard tab key. It is frequently used on &#60 a &#62 and 
+&#60button&#62 HTML elements, but may not be limited to just those. This style may be overridden by any other link-related 
+pseudo-classes, that is :link, :hover, and :visited, appearing in subsequent rules. In order to style appropriately 
+links, you need to put the :active rule after all the other link-related rules, as defined by the 
+LVHA-order: :link — :visited — :hover — :active.
+
+</p>
+<div id="timeline_col">
+	<h4> Timeline</h4>
+		<ul>
+			<li>1990 Born </li>
+			<li>1996 First school, KG </li>
+			<li>2002 Immigrated to US </li>
+			<li>2008 Graduated HS </li>
+			<li>2013 Graduated University with B.A </li>
+		</ul>
+</div>
+</div>
+
+</body>
+</html>
