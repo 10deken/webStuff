@@ -152,6 +152,11 @@ nav ul li {
 		color:#0066FF;
 		background-color: #CCCFFF; 
 }
+a {
+	 text-decoration: none;
+	 
+}
+/* A.visted, A.visited, A.hover..etc "A pseudo classes" */
 
 /** All Rights Reserved. **/	
 footer{
