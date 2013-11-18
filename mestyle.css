@@ -25,7 +25,21 @@ body {
 nav ul li {
 	
 	display:inline-block;
-	margin: .2em .5em;
-	border-bottom: 1px black solid;	
-	 
+	margin: .2em .3em;
+	font-weight:bold;
+
+	border-bottom: .1em navy solid;
+	list-style-type: none;
+}
+a:link {
+	color:brown;
+	style:none;
+	text-decoration:none;
+
+}
+a:visited {
+	color:brown;
+}
+a:hover {
+
 }
