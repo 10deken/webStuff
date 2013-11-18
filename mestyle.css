@@ -31,6 +31,9 @@ nav ul li {
 	border-bottom: .1em navy solid;
 	list-style-type: none;
 }
+a {
+	outline: 0;
+}
 a:link {
 	color:brown;
 	style:none;

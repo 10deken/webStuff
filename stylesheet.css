@@ -170,6 +170,7 @@ nav ul li {
 }
 a {
 	 text-decoration: none;
+	 outline:0;
 	 
 }
 /* A.visted, A.visited, A.hover..etc "A pseudo classes" */
