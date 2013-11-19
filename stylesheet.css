@@ -45,14 +45,17 @@ body h4:hover{
 	/*		border: 1px solid blue; */
 	}
 .my_page {
-/*	border: 2px dashed red; */
+	/*border: 2px dashed red; */ 
+	margin: 1em;
 }
 
 /******Main Content, Wrapper ****/
 .my_page #wrapper {
+
 	width: 1055px;
 	height: 540px;
 	margin: auto;
+
 	
 	
 	border-top:1px solid black;
@@ -126,27 +129,14 @@ p  {
 }
 /*** Links within each Topic ***/
 	ul li {
-		border: .14em black solid; /**/
-		background-color: #F3E5AB; /*Creamish color*/
-		color: #000033; /*dark grey text color*/
 		list-style:none;
-	 
-		padding: .4em 0;
-		margin: .3em 5em;
-	
-		-webkit-box-shadow: 3px 4px 24px 1px grey;
-		   -moz-box-shadow: 3px 4px 24px 1px grey;
-			    box-shadow: 3px 4px 24px 1px grey;
 	}
 /** Animate each little links located below the Topic **/
 	ul li:hover{
-		background-color: #3366FF; /**Dark Blue**/
-		color: whitesmoke;
-		font-weight: bold;
 	}
 	nav ul {
 			margin:auto;
-			padding: 3em 0 0 0;
+			padding: 2em 0 0 0;
 			clear: both;
 			text-align: center;
 	}
@@ -178,7 +168,7 @@ a {
 /** All Rights Reserved. **/	
 footer{
 /*		border: 1px solid red; */
-		padding: 1em 0;
+		padding: .5em 0;
 		clear: both;
 		
 		color: #CCCCCC; /**light gray */
@@ -191,6 +181,7 @@ http://www.red-team-design.com/just-another-awesome-css3-buttons
  **/
 .button
 {        
+	width: 10.9em;
 	display: inline-block;
 	white-space: nowrap;
 	background-color: #ccc;
@@ -202,8 +193,8 @@ http://www.red-team-design.com/just-another-awesome-css3-buttons
 	background-image: linear-gradient(top, #eee, #ccc);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
 	border: 1px solid #777;
-	padding: 0 1.5em;
-	margin: 0.5em;
+	padding: .1em .7em;
+	margin: 0.15em;
 	font: bold 1em/2em Arial, Helvetica;
 	text-decoration: none;
 	color: #333;
