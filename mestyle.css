@@ -1,8 +1,11 @@
-body {
-  color: #444;
-  background-image: url(CSSclassFiles/img/background.gif);
-  font-family: Garamond, Serif;
+html {	
+	background: url("foggyTree.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
 }
+
 body {
 	font-family: fantasy, cursive ;
 }
@@ -31,10 +34,9 @@ p::first-letter {
 
   margin: 0 auto;
   width: 900px;
-  
   padding-bottom:2em;
   
-  background-color: AliceBlue;
+  background-color: beige;
   box-shadow: 5px 5px 20px #000;
   -webkit-box-shadow: 5px 5px 20px #000;
   position:relative;
